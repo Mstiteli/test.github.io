@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Ubuntu+Mono');
+.shapka{
+    width: 100%;
+    height: 300px;
+    background-image: url(pics/%D1%88%D0%B0%D0%BF%D0%BA%D0%B0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+main{
+    width: 100%;
+}
+body{
+    background-color: #DC143C;
+}
+.mstiteli_znak{
+    background-image: url(pics/znak_mstiteley.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+.menu{
+    width: 100%;
+    display: flex;
+	border: #999 solid 4px;
+	margin-top: 20px;
+}
+ul{
+    width: 75%;
+}
+a{
+    font-family: "Ubuntu";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.trailer{
+    width: 100%;
+	border: #999 solid 4px;
+}
+h2{
+    font-family: "Ubuntu Mono";
+    font-size: 40px;
+    color: orange;
+}
+.one{
+    display: flex;
+    width: 100%;
+	margin: 10px auto;
+	border: #999 solid 4px;
+	background-color: #fff;
+}
+.mstiteli{
+    background-image: url(pics/204px-The_Avengers_2012_logo.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.mstiteli2{
+    background-image: url(pics/204px-The_Avengers_Age_of_Ultron_poster.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.mstiteli3{
+    background-image: url(pics/204px-Avengers_Infinity_War_poster.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.mstiteli4{
+    background-image: url(pics/202px-The_Avengers_Endgame_Poster.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: "Ubuntu Mono";
+    font-size: 70px;
+    width: 100%;
+	text-align: center;
+	margin-left: 10px;
+    margin-right: 300px;
+	z-index: 12;
+}
+footer{
+	width: 100%;
+    height: 200px;
+    background-color: #000;
+	text-align: center;
+	font-family: "Ubuntu Condensed";
+}
+.podval{
+	font-size: 20px;
+	color: orange;
+}
+.seti{
+	display: flex;
+	justify-content: center;
+	color: orange;
+	font-size: 36px;
+}
+i{
+	margin: 0 20px;
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	padding: 20px;
+	transition: all 1s;
+}
+.fa-vk:hover{
+	background-color: #375474;
+	transition: all 1s;
+	color: #fff;
+}
+.fa-instagram:hover{
+	background-color: deeppink;
+	transition: all 1s;
+	color: #fff;
+}
+.fa-youtube:hover{
+	background-color: #C52F30;
+	transition: all 1s;
+	color: #fff;
+}
+.fa-vk{
+	transition: all 1s;
+}
+.fa-instagram{
+	transition: all 1s;
+}
+.fa-youtube{
+	transition: all 1s;
+}
+.loh{
+	color: orange;
+	font-size: 36px;
+}
+.first{
+	background-color: #fff;
+	border: #999 solid 4px;
+	font-size: 25px;
+	width: 100%;
+	font-family: "Ubuntu";
+}
+.moreinfo{
+	width: 240px;
+	background-color: #fff;
+	border: #999 solid 4px;
+	border-radius: 50px;
+	display: flex;
+}
+.wiki{
+	background-image: url(pics/wikipedia.png);
+	width: 36px;
+	height: 36px;
+	background-size: cover; 
+}
+.kinopoisk{
+	background-image: url(pics/5834eccca7b52241a966e4ed963127da.jpg);
+	width: 36px;
+	height: 36px;
+	background-size: cover;
+}
+.info{
+	padding: 20px;
+	margin:0 20px;
+	width: 40px;
+	height: 40px;
+}
+.infa{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 10px auto;
+}
+.nb{
+    width: 42px;
+    height: 180px;
+    margin-left: -10px;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 2000000000;
+}
+.kin{
+    position: fixed;
+    background: #696969;
+    transition: 1s transform;
+    z-index: 2000000000;
+}
+.kin{
+    width: 270px;
+    height: 150px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -270px;
+    border: 4px solid #999;
+    text-align: center;
+    z-index: 2000000000;
+}
+.kin:after, .kin:before{
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position:absolute;
+    pointer-events: none;
+}
+.kin: after{
+    border-color: rgba(105, 105, 105, 0);
+    border-left-color: #696969;
+    border-width: 30px;
+    margin-top: -30px;
+}
+.kin: before{
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: white;
+    border-width: 33px;
+    margin-top: -33px;
+}
+.nb:hover .kin{
+    transform: translate(270px);
+}
+.n{
+    font-size: 15px;
+    font-family: "Ubuntu Mono";
+}
+h3{
+    font-size: 25px;
+    font-family: "Ubuntu Mono";
+    margin-bottom: 5px;
+}
+@media (max-width: 1179px) {
+	h1{
+        font-size: 20px;
+        text-align: center;
+        vertical-align: middle;
+    }
+	.one{
+        display: block;
+    }
+    .mstiteli{
+        display: flex;
+        justify-content: center;
+        background-position: center;
+    }
+    .mstiteli2{
+        display: flex;
+        justify-content: center;
+        background-position: center;
+    }
+    .mstiteli3{
+        display: flex;
+        justify-content: center;
+        background-position: center;
+    }
+    .mstiteli4{
+        display: flex;
+        justify-content: center;
+        background-position: center;
+    }
+}
+@media (max-width: 642px) {
+    .mstiteli_znak{
+        display: none;
+    }
+    a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 425px) {
+    .mstiteli_znak{
+        display: none;
+    }
+}
